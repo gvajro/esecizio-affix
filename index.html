@@ -92,6 +92,20 @@
                 </div>
               </div>
               <div class="row">
+                <div class="col-xs-12 col-sm-8">
+                  <div class="slide__img"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <div class="slide__img--testo">
+                    <h1>La qualità è il nostro segreto!</h1>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+              <div class="row">
                 <div class="col-xs-12">
                 <div class="ricette" id="ricette">
                   <h1>RICETTE</h1>
@@ -107,40 +121,45 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="img-swiper">
-                          <img class="img-responsive"src="image/ricette__pasta.jpg" alt="" />
-                          <h1>Pasta al pomodoro</h1>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <img class="img-responsive"src="image/ricette__pasta-neroseppia.jpg" alt="" />
+                          <h1>Pasta al nero di seppia</h1>
+                          <p>Le pasta al nero di seppia, è un primo piatto dal profumo di mare e dal gusto intenso. Il colore dato dall'inchiostro delle seppioline regala al piatto un grande
+                            impatto cromatico, per una cena fra amici o come protagonista di un divertente menu dai colori forti.
+                          </p>
                         </div>
                       </div>
 
                       <div class="swiper-slide">
                         <div class="img-swiper">
-                          <img class="img-responsive"src="image/ricette__pasta.jpg" alt="" />
-                          <h1>Pasta al pomodoro</h1>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <img class="img-responsive"src="image/ricette__pasta-tagliatelle.jpg" alt="" />
+                          <h1>Tagliatelle fave e calamaretti</h1>
+                          <p>Le tagliatelle fave e calamaretti sono facili da preparare. Un primo piatto perfetto per un pranzo di primavera che già fa pensare all'estate.
+                            Saporita e colorata, questa ricetta ha come punto forte la freschezza dei suoi ingredienti. </p>
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="img-swiper">
-                          <img class="img-responsive"src="image/ricette__pasta.jpg" alt="" />
-                          <h1>Pasta al pomodoro</h1>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <img class="img-responsive"src="image/ricette__pasta-penne.jpg" alt="" />
+                          <h1>Penne all'arrabbiata</h1>
+                          <p>Una versione di carbonara con la trota affumicata a gli asparagi, per un primo piatto
+                            veloce e facile da realizzare. Una ricetta sfizizosa e di stagione, saporita e colorata. ​</p>
                         </div>
                       </div>
-                  </div>
+                    </div>
                   <div class="swiper-button-prev"></div>
                   <div class="swiper-button-next"></div>
-                  </div>
                 </div>
               </div>
+            </div>
           </div>
         </main>
         <footer>
           <div class="container">
             <div class="row">
               <div class="col-xs-12">
-                <div id="contatti">
-                <h1>Contatti</h1>
+                <div class="contatti"id="contatti">
+                  <h1>Contatti</h1>
+                </div>
                   <div class="contatti__logo">
                     <a href="#"><img src="image/logo.svg" alt=""></a>
                   </div>
@@ -190,8 +209,8 @@
 
 <script>
   var swiper = new Swiper('.swiper-container', {
-      pagination: '.swiper-pagination',
       nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
       slidesPerView: 1,
       paginationClickable: true,
       spaceBetween: 20,

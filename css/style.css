@@ -38,11 +38,11 @@ background-color: yellow;
 }
 
 
-.chisiamo h1,.ricette h1{
+.chisiamo h1,.ricette h1,.contatti h1{
   margin: 40px 0;
   position: relative;
 }
-.chisiamo h1:after,.ricette h1:after{
+.chisiamo h1:after,.ricette h1:after,.slide__img--testo h1:after,.contatti h1:after{
     content: "";
     position: absolute;
     left:0%;
@@ -88,12 +88,38 @@ margin-right: 15px;
 }
 
 .swiper-container {
-       width: 100%;
-       height: 100%;
-    }
-.contatti{
-  display: flex;
-  justify-content: center;
+   width: 100%;
+   height: auto;
+}
+
+.slide__img{
+margin: 80px 0;
+background-image: url('../image/slide__pasta.jpg');
+background-size: cover;
+height: 60vw;
+width: auto;
+}
+  .slide__img--testo{
+  margin: 120px 0;
+  text-transform: uppercase;
+  }
+  .slide__img--testo h1{
+  font-size: 55px;
+  position: relative;
+  }
+  .slide__img--testo h1:after{
+    content: "";
+    position: absolute;
+    top: 180px;
+  }
+
+
+footer{
+background-color:rgba(0, 0, 0, 0.5);
+margin-top: 80px;
+}
+footer a{
+color: black;
 }
 .contatti__logo,.contatti__indirizzi--social,.contatti__indirizzi p{
 text-align: center;

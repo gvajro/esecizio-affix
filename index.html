@@ -15,13 +15,17 @@
           <div class="navigation" data-spy="affix" data-offset-top="80" data-offset-bottom="200">
             <nav>
               <div id="navbar">
-                <ul class="nav nav-tabs" role="tablist">
-                  <li><a href="#logo"><img src="image/logo.svg" alt=""></a></li>
-                  <li><a href="#chisiamo">CHI SIAMO</a></li>
-                  <li><a href="#prodotti">PRODOTTI</a></li>
-                  <li><a href="#ricette">RICETTE</a></li>
-                  <li><a href="#contatti">CONTATTI</a></li>
-                </ul>
+                <div class="container">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <div class="nav__logo">
+                      <a href="#"><img src="image/logo.svg" alt=""></a>
+                    </div>
+                    <li><a href="#chisiamo">CHI SIAMO</a></li>
+                    <li><a href="#prodotti">PRODOTTI</a></li>
+                    <li><a href="#ricette">RICETTE</a></li>
+                    <li><a href="#contatti">CONTATTI</a></li>
+                  </ul>
+                </div>
               </div>
             </nav>
           </div>
@@ -34,13 +38,12 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="hero-image">
-            <img class="img-responsive"src="image/hero-pasta.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <div id="chisiamo">
+          <div class="chisiamo" id="chisiamo">
             <h1>CHI SIAMO</h1>
           </div>
         </div>
@@ -48,41 +51,53 @@
       <div class="row">
         <div class="col-xs-12 col-sm-4">
           <div class="chisiamo__testo--titolo">
+            <img class="img-responsive chisiamo__testo--logo"src="image/logo__pasta--farfalla.svg" alt="">
             <h2>L'azienda</h2>
           </div>
           <div class="chisiamo__testo">
-            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="chisiamo__testo--bottone">
+              <a href="#">Scopri</a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4">
             <div class="chisiamo__testo--titolo">
-              <h2>L'azienda</h2>
+              <img class="img-responsive chisiamo__testo--logo"src="image/logo__pasta--conchiglia.svg" alt="">
+              <h2>I Prodotti</h2>
             </div>
             <div class="chisiamo__testo">
-              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="chisiamo__testo--bottone">
+                <a href="#prodotti">Scopri</a>
               </div>
             </div>
             <div class="col-xs-12 col-sm-4">
               <div class="chisiamo__testo--titolo">
-                <h2>L'azienda</h2>
+                <img class="img-responsive chisiamo__testo--logo"src="image/logo__pasta--penne.svg" alt="">
+                <h2>Le ricette</h2>
               </div>
               <div class="chisiamo__testo">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                  sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                </div>
+                <div class="chisiamo__testo--bottone">
+                  <a href="#ricette">Scopri</a>
                 </div>
               </div>
-            </div>
-            <div id="ricette">
               <div class="row">
-                <div class="col-xs-6 col-sm-12">
+                <div class="col-xs-12">
+                <div class="ricette" id="ricette">
                   <h1>RICETTE</h1>
+                </div>
                   <div class="swiper-container">
-
-                  <div class="swiper-wrapper">
-
-
+                    <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <div class="img-swiper">
                           <img class="img-responsive"src="image/ricette__pasta.jpg" alt="" />
@@ -113,17 +128,11 @@
                         </div>
                       </div>
                   </div>
-
-
-
                   <div class="swiper-button-prev"></div>
                   <div class="swiper-button-next"></div>
-
-
                   </div>
                 </div>
               </div>
-            </div>
           </div>
         </main>
         <footer>
@@ -132,9 +141,19 @@
               <div class="col-xs-12">
                 <div id="contatti">
                 <h1>Contatti</h1>
-                  email
-                  facebook
-                  instagram
+                  <div class="contatti__logo">
+                    <a href="#"><img src="image/logo.svg" alt=""></a>
+                  </div>
+                  <div class="contatti__indirizzi--social">
+                    <ul>
+                      <li><a href="#">Facebook</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">Instagram</a></li>
+                    </ul>
+                  </div>
+                  <div class="contatti__indirizzi">
+                    <p>Via Lorem ipsum dolor sit amet,u fugiat nulla pariatur. Excepteur sint .</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -175,7 +194,7 @@
       nextButton: '.swiper-button-next',
       slidesPerView: 1,
       paginationClickable: true,
-      spaceBetween: 30,
+      spaceBetween: 20,
       loop: true
   });
   </script>

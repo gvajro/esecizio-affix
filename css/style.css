@@ -1,25 +1,36 @@
 body{
 position: relative;
 }
-.navigation{
-width: 100%;
-height: 45px;
-z-index: 6;
+a{
+color:#778899;
 }
 
-.menu li{
-display: inline-flex;
-justify-content: flex-end;
+  a:hover{
+  color: #FFFAFA;
 }
-.hero-image{
+.navigation{
+float: right;
 width: 100%;
-margin: 30px 0;
+height: 45px;
+z-index: 3;
 }
-  .hero-image img{
-  width: 100%;
-  }
+.nav-tabs>li{
+float: right;
+}
+
+.nav__logo{
+float: left;
+}
+
+.hero-image {
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url('../image/sfondo_pasta.jpg');
+background-size: cover;
+height: 70vh;
+width: auto;
+}
+
 a img{
-width:30px;
+width:100px;
 }
 
 .affix{
@@ -27,23 +38,67 @@ background-color: yellow;
 }
 
 
-#chisiamo,#ricette{
-padding-top: 40px;
-font-size: 18px;
+.chisiamo h1,.ricette h1{
+  margin: 40px 0;
+  position: relative;
 }
+.chisiamo h1:after,.ricette h1:after{
+    content: "";
+    position: absolute;
+    left:0%;
+    top: 40px;
+    width: 60px;
+    height: 3px;
+    background: orange;
+    margin: 4px 0;
+}
+.chisiamo__testo--titolo{
+text-transform: uppercase;
+display: flex;
+align-items: center;
+margin: 15px 0;
+}
+.chisiamo__testo--titolo h2{
+margin: 0;
+}
+.chisiamo__testo--bottone{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font: bold 16px Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px 20px;
+  border: solid 1px #FFA500;
+  background: #FFA500;
+  max-width: 100px;
+  border-radius: 10px;
+}
+    .chisiamo__testo--bottone a{
+    color: #fff;
+    text-decoration: none;
+    }
+    .chisiamo__testo--bottone a:hover{
+    color: #fAfAfA;
+    text-decoration: none;
+    }
 
-  #contatti{
-  background-color: yellow;
-  width: 100%;
-  }
-  .chisiamo__testo h3{
-  font-size: 12px;
-  text-align: left;
-  }
-
-
+.chisiamo__testo--logo{
+width: 45px;
+margin-right: 15px;
+}
 
 .swiper-container {
        width: 100%;
        height: 100%;
     }
+.contatti{
+  display: flex;
+  justify-content: center;
+}
+.contatti__logo,.contatti__indirizzi--social,.contatti__indirizzi p{
+text-align: center;
+margin: 10px 0;
+}
+.contatti__indirizzi--social ul li{
+display: inline-block;
+}
